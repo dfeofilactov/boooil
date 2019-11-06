@@ -5,9 +5,11 @@ Automatic folder structure and config generator for Node JS projects.
 ### Usage
 
 ```
-npx boooil
-// or
-npm i boooil -g
+$ npx boooil
+```
+or
+```
+$ npm i boooil -g
 boooil
 ```
 
