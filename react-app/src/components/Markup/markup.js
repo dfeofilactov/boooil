@@ -1,21 +1,22 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 import '../../sass/main.sass';
+import Header from './Header/header';
+import Content from './Content/content';
 
 
-const Markup = ({ index }) => {
+const Markup = () => {
     return (
-        <div className='MarkupStyle'>
-            <header>
-                <div>{ index }</div>
-            </header>
+        <div className='markup'>
+            <Header />
+            <Content />
         </div>
     );
 };
 
 Markup.propTypes = {
-    index: PropTypes.number.isRequired,
+    // index: PropTypes.number.isRequired,
 };
 
 Markup.defaultProps = {
