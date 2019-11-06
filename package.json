@@ -9,6 +9,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "template",
+    "boilerplate",
+    "generator"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adooone/boooil.git"
