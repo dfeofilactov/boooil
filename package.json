@@ -1,12 +1,13 @@
 {
   "name": "boooil",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "bin": {
     "boooil": "./index.js"
   },
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
